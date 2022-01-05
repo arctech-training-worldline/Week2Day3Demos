@@ -57,7 +57,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="documents\2022-01-05 - Session 1.pdf" />
-    <None Include="documents\Assignment - Session 2.docx" />
+    <None Include="documents\Assignment - Session 2.pdf" />
     <None Include="documents\Introduction to oops concepts.pdf" />
     <None Include="documents\Polymorphism Questions and Answers in CSharp.pdf" />
   </ItemGroup>
