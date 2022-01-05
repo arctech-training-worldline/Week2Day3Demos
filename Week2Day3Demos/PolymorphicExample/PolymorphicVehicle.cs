@@ -16,7 +16,7 @@ namespace Week2Day3Demos.PolymorphicExample
             Console.WriteLine("Vehicle Stop");
         }
 
-        public void Accelerate()
+        public virtual void Accelerate()
         {
             speed += 10;
             Console.WriteLine("Vehicle Accelerate");

@@ -29,7 +29,7 @@ namespace Week2Day3Demos.PolymorphicExample
         // We are overwriting the default 
         // OOP Term: Method OverRiding
         //     Note: This is different to Method OverLoading
-        public void Accelerate()
+        public override void Accelerate()
         {
             speed += 30;
             Console.WriteLine("ElectricCar Accelerate");
@@ -51,18 +51,19 @@ namespace Week2Day3Demos.PolymorphicExample
             e.Accelerate();
             Console.WriteLine($"2.speed = {e.GetSpeed()}");  // 60
 
-            Console.WriteLine("---------------------------------"); 
+            Console.WriteLine("---------------------------------");
 
             // What is the output of the below code.
             // Find out and explain why.
-            PolymorphicCar car = new PolymorphicCar();
+            PolymorphicCar car;
+            car = new PolymorphicCar();
             car.Accelerate();
-            Console.WriteLine($"3.speed = {car.GetSpeed()}"); // ?
+            Console.WriteLine($"3.speed = {car.GetSpeed()}"); // 10
 
             car = new PolymorphicElectricCar();
             car.Accelerate();
             car.Accelerate();
-            Console.WriteLine($"4.speed = {car.GetSpeed()}"); // ?
+            Console.WriteLine($"4.speed = {car.GetSpeed()}"); // 20
             Console.WriteLine("---------------------------------");
         }
     }
