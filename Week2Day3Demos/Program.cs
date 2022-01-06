@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Week2Day3Demos.AssignmentSolution;
 using Week2Day3Demos.PolymorphicExample;
 
 namespace Week2Day3Demos
@@ -18,7 +19,9 @@ namespace Week2Day3Demos
             //Console.WriteLine($"Add 3 parameters = {FunctionOverloadingExample.Add(10, 20, 30)}");
             //Console.WriteLine ($"Add 4 parameters = {FunctionOverloadingExample.Add(10, 20, 30, 40)}");
 
-            PolymorphicDemo.Test();
+            //PolymorphicDemo.Test();
+
+            Assignment.Test();
         }
     }
 }
